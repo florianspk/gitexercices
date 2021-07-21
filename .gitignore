@@ -1,22 +1,13 @@
 
 ### GITIGNORE IDE ###
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
 ### IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
 *.ipr
 
-### NetBeans ###
+## Les fichiers Généré par NetBeans ##
 /nbproject/private/
 /nbbuild/
 /dist/
@@ -26,21 +17,21 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### VS Code ###
+### Le fichier Généré par VS Code ###
 .vscode/
 
 ### GITIGNORE CODE ###
 
-# Compiled class file
+# Class Compilé de JAVA
 *.class
 
-# Log file
+# Fichier de log
 *.log
 
-# BlueJ files
+# Fichier BlueJ
 *.ctxt
 
-# Mobile Tools for Java (J2ME)
+# Outils mobile pour Java
 .mtj.tmp/
 
 # Package Files #
@@ -51,3 +42,5 @@ build/
 *.zip
 *.tar.gz
 *.rar
+
+## Nous excluons tout ses fichiers pour pas polluer le git car tout ses fichier son propre à chaque utilisateur ou pourront être regénéré, nous pouvons aussi mettre les fichiers .env pour ne pas mettre des données sensible sur notre repo
